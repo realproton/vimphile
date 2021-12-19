@@ -1,3 +1,4 @@
-vimrcs/myconfigs.vim
+vimrcs/userConfig.vim
+vimrcs/userConfigG.vim
 tags
 

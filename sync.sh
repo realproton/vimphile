@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/bash
 
 # cp -r -f plugin ~/.vim
 # cp -r -f doc ~/.vim
