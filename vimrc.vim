@@ -4,3 +4,7 @@ try
 catch
     :echo "No user configurations!"
 endtry
+
+try
+    source ~/.vim/vimrcs/userConfig.vim
+endtry

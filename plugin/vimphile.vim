@@ -25,8 +25,8 @@ function! QuickRun()
         :!gcc % -o "%:r.out"
         :!./"%:r.out"
     elseif &filetype == 'cpp'
-        :!gcc % -o "%:r.out"
-        :!./"%:r.out"
+        :!g++ %:t -o "%:t:r.out" 
+        :!./"%:t:r.out"
     elseif &filetype == 'python'
         :!python3 %
     elseif &filetype == 'java'

@@ -7,4 +7,6 @@ endtry
 
 try
     source ~/.vim/vimrcs/graphic.vim
+    source ~/.vim/vimrcs/userConfig.vim
+    source ~/.vim/vimrcs/userConfigG.vim
 endtry
